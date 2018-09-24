@@ -19,7 +19,7 @@ class PigLatinizer
             char << finished_w
           else
             finished_w << 'ay'
-            return finished_w.join
+            return finished_w.join('')
           end
         end
       end
